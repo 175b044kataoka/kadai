@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33537695721285204}
   - component: {fileID: 65642752033921554}
   - component: {fileID: 23390092738677310}
+  - component: {fileID: 114519691153454462}
   m_Layer: 9
   m_Name: kabe
   m_TagString: Wall
@@ -93,3 +94,14 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114519691153454462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092438644630386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117994f1a2f73b04abd90c5fafd1e348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

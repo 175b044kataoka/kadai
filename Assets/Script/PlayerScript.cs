@@ -23,11 +23,11 @@ public class PlayerScript : MonoBehaviour {
     {
         if (Input.GetKey("up"))
         {
-            transform.position += transform.up * speed * Time.deltaTime;
+            transform.position += transform.forward * speed * Time.deltaTime;
         }
         if (Input.GetKey("down"))
         {
-            transform.position -= transform.up * speed * Time.deltaTime;
+            transform.position -= transform.forward * speed * Time.deltaTime;
         }
         if (Input.GetKey("right"))
         {
@@ -37,15 +37,6 @@ public class PlayerScript : MonoBehaviour {
         {
             transform.position -= transform.right * speed * Time.deltaTime;
         }
-        //velocity: 速度
-        //X方向へmoveSpeed分移動させる
         rb.velocity = new Vector3(moveSpeed, rb.velocity.y);
-    }
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.name == "teki")
-        {
-            SceneManager.LoadScene("GameOver");
-        }
     }
 }

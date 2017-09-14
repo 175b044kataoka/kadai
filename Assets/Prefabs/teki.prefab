@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 23074449157043492}
   - component: {fileID: 114179568858257414}
   - component: {fileID: 54627508461749424}
+  - component: {fileID: 114333783841816962}
   m_Layer: 8
   m_Name: teki
   m_TagString: Teki
@@ -99,6 +100,17 @@ Rigidbody:
   m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!114 &114179568858257414
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730163940537126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 792f06d1874f2814193253c736c1035d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114333783841816962
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}

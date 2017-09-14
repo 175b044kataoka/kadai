@@ -8,7 +8,7 @@ public class CameraScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        target = GameObject.FindWithTag("Player").transform;
+        target = GameObject.FindWithTag("Butterfly").transform;
     }
 	
 	// Update is called once per frame
